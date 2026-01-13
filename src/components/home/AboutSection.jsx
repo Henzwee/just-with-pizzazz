@@ -83,7 +83,7 @@ export default function AboutSection() {
               <img 
                 src="https://images.unsplash.com/photo-1618220179428-22790b461013?w=400"
                 alt="Modern interior"
-                className="rounded-2xl w-full aspect-[3/4] object-cover mt-8"
+                className="rounded-2xl w-full aspect-[3/4] object-cover"
               />
             </div>
             <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 bg-white text-slate-800 px-6 py-4 rounded-xl shadow-xl">
