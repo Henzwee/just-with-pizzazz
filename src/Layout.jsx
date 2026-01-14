@@ -44,7 +44,7 @@ export default function Layout({ children, currentPageName }) {
             </Link>
 
             {/* Desktop Nav */}
-            <div className="hidden md:flex items-center gap-8">
+            <div className="hidden md:flex items-center gap-8 ml-auto">
               {navLinks.map(link => (
                 <Link 
                   key={link.page}
@@ -58,12 +58,6 @@ export default function Layout({ children, currentPageName }) {
                   {link.name}
                 </Link>
               ))}
-              <Link 
-                to={createPageUrl('Contact')}
-                className="bg-[#F5B800] hover:bg-amber-500 text-slate-900 font-medium px-6 py-3 rounded-full transition-colors"
-              >
-                Get in Touch
-              </Link>
             </div>
 
             {/* Mobile Menu Button */}
