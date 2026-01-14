@@ -26,7 +26,7 @@ export default function HeroSection() {
             />
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-light text-slate-800 leading-tight">
               Curated Furniture,
-              <span className="block font-semibold text-[#1E3A5F]">Personal Service</span>
+              <span className="block font-semibold text-[#3a2efe]">Personal Service</span>
             </h1>
             <p className="text-lg text-slate-600 max-w-lg leading-relaxed">
               Each piece is hand-selected with care. No online checkout—just genuine conversations 
@@ -42,7 +42,7 @@ export default function HeroSection() {
               </Link>
               <Link 
                 to={createPageUrl('Contact')}
-                className="inline-flex items-center justify-center gap-2 border-2 border-[#1E3A5F] text-[#1E3A5F] hover:bg-[#1E3A5F] hover:text-white font-medium px-8 py-4 rounded-full transition-all duration-300"
+                className="inline-flex items-center justify-center gap-2 border-2 border-[#3a2efe] text-[#3a2efe] hover:bg-[#3a2efe] hover:text-white font-medium px-8 py-4 rounded-full transition-all duration-300"
               >
                 Get in Touch
               </Link>
@@ -64,7 +64,7 @@ export default function HeroSection() {
               />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-xl">
                 <p className="text-sm text-slate-500 uppercase tracking-wider">Indianapolis</p>
-                <p className="text-xl font-semibold text-[#1E3A5F]">Locally Owned</p>
+                <p className="text-xl font-semibold text-[#3a2efe]">Locally Owned</p>
               </div>
             </div>
           </motion.div>

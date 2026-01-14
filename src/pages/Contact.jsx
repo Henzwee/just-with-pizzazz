@@ -47,7 +47,7 @@ export default function Contact() {
   return (
     <div className="min-h-screen bg-slate-50">
       {/* Header */}
-      <div className="bg-gradient-to-br from-[#1E3A5F] to-[#162d4a] py-20 text-white">
+      <div className="bg-gradient-to-br from-[#3a2efe] to-[#2a1fd8] py-20 text-white">
         <div className="container mx-auto px-6 lg:px-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -75,7 +75,7 @@ export default function Contact() {
             >
               <Link 
                 to={createPageUrl('AvailablePieces')}
-                className="inline-flex items-center gap-2 text-slate-600 hover:text-[#1E3A5F] mb-4"
+                className="inline-flex items-center gap-2 text-slate-600 hover:text-[#3a2efe] mb-4"
               >
                 <ArrowLeft className="w-4 h-4" />
                 Back to Available Pieces
@@ -119,7 +119,7 @@ export default function Contact() {
                       </Button>
                       <Link 
                         to={createPageUrl('AvailablePieces')}
-                        className="inline-flex items-center justify-center gap-2 bg-[#1E3A5F] hover:bg-[#162d4a] text-white px-6 py-2 rounded-full font-medium transition-colors"
+                        className="inline-flex items-center justify-center gap-2 bg-[#3a2efe] hover:bg-[#2a1fd8] text-white px-6 py-2 rounded-full font-medium transition-colors"
                       >
                         Browse More Pieces
                       </Link>
@@ -203,7 +203,7 @@ export default function Contact() {
               animate={{ opacity: 1, x: 0 }}
               className="lg:col-span-2 space-y-6"
             >
-              <div className="bg-[#1E3A5F] text-white rounded-3xl p-8">
+              <div className="bg-[#3a2efe] text-white rounded-3xl p-8">
                 <h3 className="text-xl font-semibold mb-6">Contact Information</h3>
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">

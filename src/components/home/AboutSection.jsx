@@ -24,7 +24,7 @@ export default function AboutSection() {
   ];
 
   return (
-    <section className="py-24 bg-gradient-to-br from-[#1E3A5F] to-[#162d4a] text-white relative overflow-hidden">
+    <section className="py-24 bg-gradient-to-br from-[#3a2efe] to-[#2a1fd8] text-white relative overflow-hidden">
       {/* Decorative */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-[#F5B800]/10 rounded-full blur-3xl" />
       <div className="absolute bottom-0 left-0 w-72 h-72 bg-blue-400/10 rounded-full blur-3xl" />

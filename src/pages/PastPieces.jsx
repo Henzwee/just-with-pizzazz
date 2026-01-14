@@ -18,7 +18,7 @@ export default function PastPieces() {
   return (
     <div className="min-h-screen bg-slate-50">
       {/* Header */}
-      <div className="bg-gradient-to-br from-[#1E3A5F] to-[#162d4a] py-20 text-white">
+      <div className="bg-gradient-to-br from-[#3a2efe] to-[#2a1fd8] py-20 text-white">
         <div className="container mx-auto px-6 lg:px-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

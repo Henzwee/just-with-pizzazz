@@ -17,7 +17,7 @@ export default function Layout({ children, currentPageName }) {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Top Bar */}
-      <div className="bg-[#1E3A5F] text-white py-2 text-sm hidden md:block">
+      <div className="bg-[#3a2efe] text-white py-2 text-sm hidden md:block">
         <div className="container mx-auto px-6 lg:px-12 flex justify-end items-center gap-6">
           <a href="tel:3175551234" className="flex items-center gap-2 hover:text-[#F5B800] transition-colors">
             <Phone className="w-4 h-4" />
@@ -52,7 +52,7 @@ export default function Layout({ children, currentPageName }) {
                   className={`font-medium transition-colors ${
                     currentPageName === link.page 
                       ? 'text-[#F5B800]' 
-                      : 'text-slate-700 hover:text-[#1E3A5F]'
+                      : 'text-slate-700 hover:text-[#3a2efe]'
                   }`}
                 >
                   {link.name}
@@ -126,7 +126,7 @@ export default function Layout({ children, currentPageName }) {
       </main>
 
       {/* Footer */}
-      <footer className="bg-[#1E3A5F] text-white">
+      <footer className="bg-[#3a2efe] text-white">
         <div className="container mx-auto px-6 lg:px-12 py-12">
           <div className="grid md:grid-cols-3 gap-12">
             <div>

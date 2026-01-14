@@ -45,7 +45,7 @@ export default function FeaturedPieces({ pieces }) {
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full">
-                  <span className="font-semibold text-[#1E3A5F]">${piece.price?.toLocaleString()}</span>
+                  <span className="font-semibold text-[#3a2efe]">${piece.price?.toLocaleString()}</span>
                 </div>
               </div>
               <h3 className="text-xl font-semibold text-slate-800 mb-2">{piece.name}</h3>
@@ -54,7 +54,7 @@ export default function FeaturedPieces({ pieces }) {
               )}
               <Link 
                 to={createPageUrl(`Contact?piece=${piece.id}`)}
-                className="inline-flex items-center gap-2 text-[#1E3A5F] hover:text-[#F5B800] font-medium transition-colors"
+                className="inline-flex items-center gap-2 text-[#3a2efe] hover:text-[#F5B800] font-medium transition-colors"
               >
                 <MessageCircle className="w-4 h-4" />
                 Check Availability
@@ -66,7 +66,7 @@ export default function FeaturedPieces({ pieces }) {
         <div className="text-center">
           <Link 
             to={createPageUrl('AvailablePieces')}
-            className="inline-flex items-center gap-2 border-2 border-slate-300 hover:border-[#1E3A5F] text-slate-700 hover:text-[#1E3A5F] px-8 py-4 rounded-full font-medium transition-all duration-300"
+            className="inline-flex items-center gap-2 border-2 border-slate-300 hover:border-[#3a2efe] text-slate-700 hover:text-[#3a2efe] px-8 py-4 rounded-full font-medium transition-all duration-300"
           >
             See All Available Stock
             <ArrowRight className="w-5 h-5" />

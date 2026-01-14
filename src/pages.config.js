@@ -1,15 +1,15 @@
-import Home from './pages/Home';
 import AvailablePieces from './pages/AvailablePieces';
-import PastPieces from './pages/PastPieces';
 import Contact from './pages/Contact';
+import Home from './pages/Home';
+import PastPieces from './pages/PastPieces';
 import __Layout from './Layout.jsx';
 
 
 export const PAGES = {
-    "Home": Home,
     "AvailablePieces": AvailablePieces,
-    "PastPieces": PastPieces,
     "Contact": Contact,
+    "Home": Home,
+    "PastPieces": PastPieces,
 }
 
 export const pagesConfig = {

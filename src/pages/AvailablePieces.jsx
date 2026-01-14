@@ -28,7 +28,7 @@ export default function AvailablePieces() {
   return (
     <div className="min-h-screen bg-slate-50">
       {/* Header */}
-      <div className="bg-gradient-to-br from-[#1E3A5F] to-[#162d4a] py-20 text-white">
+      <div className="bg-gradient-to-br from-[#3a2efe] to-[#2a1fd8] py-20 text-white">
         <div className="container mx-auto px-6 lg:px-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -72,7 +72,7 @@ export default function AvailablePieces() {
                 variant={viewMode === 'grid' ? 'default' : 'ghost'} 
                 size="icon"
                 onClick={() => setViewMode('grid')}
-                className={viewMode === 'grid' ? 'bg-[#1E3A5F]' : ''}
+                className={viewMode === 'grid' ? 'bg-[#3a2efe]' : ''}
               >
                 <Grid className="w-4 h-4" />
               </Button>
@@ -80,7 +80,7 @@ export default function AvailablePieces() {
                 variant={viewMode === 'list' ? 'default' : 'ghost'} 
                 size="icon"
                 onClick={() => setViewMode('list')}
-                className={viewMode === 'list' ? 'bg-[#1E3A5F]' : ''}
+                className={viewMode === 'list' ? 'bg-[#3a2efe]' : ''}
               >
                 <LayoutList className="w-4 h-4" />
               </Button>
@@ -112,7 +112,7 @@ export default function AvailablePieces() {
             </p>
             <Link 
               to={createPageUrl('Contact')}
-              className="inline-flex items-center gap-2 text-[#1E3A5F] font-medium hover:text-[#F5B800] transition-colors"
+              className="inline-flex items-center gap-2 text-[#3a2efe] font-medium hover:text-[#F5B800] transition-colors"
             >
               <MessageCircle className="w-4 h-4" />
               Looking for something specific? Let us know!
@@ -143,10 +143,10 @@ export default function AvailablePieces() {
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                       />
                       <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg">
-                        <span className="font-bold text-[#1E3A5F]">${piece.price?.toLocaleString()}</span>
+                        <span className="font-bold text-[#3a2efe]">${piece.price?.toLocaleString()}</span>
                       </div>
                       {piece.category && (
-                        <div className="absolute top-4 left-4 bg-[#1E3A5F]/90 backdrop-blur-sm px-3 py-1 rounded-full">
+                        <div className="absolute top-4 left-4 bg-[#3a2efe]/90 backdrop-blur-sm px-3 py-1 rounded-full">
                           <span className="text-xs text-white uppercase tracking-wider">{piece.category}</span>
                         </div>
                       )}
@@ -197,7 +197,7 @@ export default function AvailablePieces() {
                       <div>
                         <div className="flex items-start justify-between mb-2">
                           <h3 className="text-xl font-semibold text-slate-800">{piece.name}</h3>
-                          <span className="font-bold text-[#1E3A5F] text-lg">${piece.price?.toLocaleString()}</span>
+                          <span className="font-bold text-[#3a2efe] text-lg">${piece.price?.toLocaleString()}</span>
                         </div>
                         {piece.category && (
                           <span className="inline-block bg-slate-100 text-slate-600 px-3 py-1 rounded-full text-xs uppercase tracking-wider mb-2">

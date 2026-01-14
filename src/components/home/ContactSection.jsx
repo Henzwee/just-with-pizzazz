@@ -36,7 +36,7 @@ export default function ContactSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-light text-slate-800 mb-4">
-            Have Questions? <span className="font-semibold text-[#1E3A5F]">Get in Touch!</span>
+            Have Questions? <span className="font-semibold text-[#3a2efe]">Get in Touch!</span>
           </h2>
           <p className="text-slate-600 max-w-2xl mx-auto">
             Whether you're looking for something specific or just browsing, we'd love to hear from you.
@@ -139,7 +139,7 @@ export default function ContactSection() {
             viewport={{ once: true }}
             className="space-y-8"
           >
-            <div className="bg-[#1E3A5F] text-white rounded-3xl p-8">
+            <div className="bg-[#3a2efe] text-white rounded-3xl p-8">
               <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
