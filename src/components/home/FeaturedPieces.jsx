@@ -53,11 +53,10 @@ export default function FeaturedPieces({ pieces }) {
                 <p className="text-sm text-slate-500 mb-3">{piece.dimensions}</p>
               )}
               <Link 
-                to={createPageUrl(`Contact?piece=${piece.id}`)}
+                to={createPageUrl(`Product?id=${piece.id}`)}
                 className="inline-flex items-center gap-2 text-[#3a2efe] hover:text-[#F5B800] font-medium transition-colors"
               >
-                <MessageCircle className="w-4 h-4" />
-                Check Availability
+                View Details
               </Link>
             </motion.div>
           ))}

@@ -160,11 +160,10 @@ export default function AvailablePieces() {
                         <p className="text-slate-600 text-sm mb-4 line-clamp-2">{piece.description}</p>
                       )}
                       <Link 
-                        to={createPageUrl(`Contact?piece=${piece.id}&name=${encodeURIComponent(piece.name)}`)}
+                        to={createPageUrl(`Product?id=${piece.id}`)}
                         className="inline-flex items-center gap-2 bg-[#F5B800] hover:bg-amber-500 text-slate-900 px-6 py-3 rounded-full font-medium transition-colors w-full justify-center"
                       >
-                        <MessageCircle className="w-4 h-4" />
-                        Check Availability
+                        View Details
                       </Link>
                     </div>
                   </motion.div>
@@ -213,11 +212,10 @@ export default function AvailablePieces() {
                       </div>
                       <div className="mt-4">
                         <Link 
-                          to={createPageUrl(`Contact?piece=${piece.id}&name=${encodeURIComponent(piece.name)}`)}
+                          to={createPageUrl(`Product?id=${piece.id}`)}
                           className="inline-flex items-center gap-2 bg-[#F5B800] hover:bg-amber-500 text-slate-900 px-6 py-3 rounded-full font-medium transition-colors"
                         >
-                          <MessageCircle className="w-4 h-4" />
-                          Check Availability
+                          View Details
                         </Link>
                       </div>
                     </div>
