@@ -6,10 +6,10 @@ import { motion } from 'framer-motion';
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-[80vh] flex items-center overflow-hidden bg-gradient-to-br from-slate-50 to-blue-50">
+    <section className="relative min-h-[80vh] flex items-center overflow-hidden bg-white">
       {/* Decorative elements */}
-      <div className="absolute top-20 right-20 w-72 h-72 bg-amber-400/10 rounded-full blur-3xl" />
-      <div className="absolute bottom-20 left-10 w-96 h-96 bg-blue-900/5 rounded-full blur-3xl" />
+      <div className="absolute top-20 right-20 w-72 h-72 bg-[#F5B800]/20 rounded-full blur-3xl" />
+      <div className="absolute bottom-20 left-10 w-96 h-96 bg-[#3a2efe]/10 rounded-full blur-3xl" />
       
       <div className="container mx-auto px-6 lg:px-12 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -24,11 +24,11 @@ export default function HeroSection() {
               alt="Just with Pizzazz"
               className="h-24 md:h-32 object-contain"
             />
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-light text-slate-800 leading-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 leading-tight">
               Curated Furniture,
-              <span className="block font-semibold text-[#3a2efe]">Personal Service</span>
+              <span className="block bg-gradient-to-r from-[#3a2efe] to-[#5d51fe] bg-clip-text text-transparent">Personal Service</span>
             </h1>
-            <p className="text-lg text-slate-600 max-w-lg leading-relaxed">
+            <p className="text-lg text-slate-700 max-w-lg leading-relaxed">
               Each piece is hand-selected with care. No online checkout—just genuine conversations 
               to help you find exactly what your space needs.
             </p>
@@ -62,9 +62,9 @@ export default function HeroSection() {
                 alt="Beautiful furniture"
                 className="relative rounded-3xl shadow-2xl w-full object-cover aspect-[4/3]"
               />
-              <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-xl">
-                <p className="text-sm text-slate-500 uppercase tracking-wider">Indianapolis</p>
-                <p className="text-xl font-semibold text-[#3a2efe]">Locally Owned</p>
+              <div className="absolute -bottom-6 -left-6 bg-gradient-to-br from-[#3a2efe] to-[#5d51fe] p-6 rounded-2xl shadow-xl">
+                <p className="text-sm text-white/80 uppercase tracking-wider">Indianapolis</p>
+                <p className="text-xl font-bold text-white">Locally Owned</p>
               </div>
             </div>
           </motion.div>

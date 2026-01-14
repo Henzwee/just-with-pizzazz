@@ -27,7 +27,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section className="py-24 bg-slate-50">
+    <section className="py-24 bg-gradient-to-b from-white to-slate-50">
       <div className="container mx-auto px-6 lg:px-12">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
@@ -35,8 +35,8 @@ export default function ContactSection() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-light text-slate-800 mb-4">
-            Have Questions? <span className="font-semibold text-[#3a2efe]">Get in Touch!</span>
+          <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
+            Have Questions? <span className="bg-gradient-to-r from-[#3a2efe] to-[#5d51fe] bg-clip-text text-transparent">Get in Touch!</span>
           </h2>
           <p className="text-slate-600 max-w-2xl mx-auto">
             Whether you're looking for something specific or just browsing, we'd love to hear from you.
@@ -139,42 +139,42 @@ export default function ContactSection() {
             viewport={{ once: true }}
             className="space-y-8"
           >
-            <div className="bg-[#3a2efe] text-white rounded-3xl p-8">
-              <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
+            <div className="bg-gradient-to-br from-[#3a2efe] to-[#5d51fe] text-white rounded-3xl p-8 shadow-xl">
+              <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center flex-shrink-0">
                     <MapPin className="w-5 h-5 text-[#F5B800]" />
                   </div>
                   <div>
-                    <p className="font-medium mb-1">Location</p>
-                    <p className="text-blue-200">Indianapolis, IN</p>
+                    <p className="font-bold mb-1">Location</p>
+                    <p className="text-white/90">Indianapolis, IN</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center flex-shrink-0">
                     <Phone className="w-5 h-5 text-[#F5B800]" />
                   </div>
                   <div>
-                    <p className="font-medium mb-1">Phone</p>
-                    <p className="text-blue-200">(317) 555-1234</p>
+                    <p className="font-bold mb-1">Phone</p>
+                    <p className="text-white/90">(317) 555-1234</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center flex-shrink-0">
                     <Mail className="w-5 h-5 text-[#F5B800]" />
                   </div>
                   <div>
-                    <p className="font-medium mb-1">Email</p>
-                    <p className="text-blue-200">hello@justwithpizzazz.com</p>
+                    <p className="font-bold mb-1">Email</p>
+                    <p className="text-white/90">hello@justwithpizzazz.com</p>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-[#F5B800] to-amber-500 rounded-3xl p-8 text-slate-900">
-              <h3 className="text-xl font-semibold mb-3">Why No Shopping Cart?</h3>
-              <p className="text-slate-800/80">
+            <div className="bg-gradient-to-br from-[#F5B800] to-[#ffcf40] rounded-3xl p-8 text-slate-900 shadow-xl">
+              <h3 className="text-xl font-bold mb-3">Why No Shopping Cart?</h3>
+              <p className="text-slate-900/90">
                 We believe in the personal touch. Furniture is an investment, and we want to make sure 
                 each piece finds the perfect home. Let's talk about what you're looking for!
               </p>

@@ -18,17 +18,17 @@ export default function PastPieces() {
   return (
     <div className="min-h-screen bg-slate-50">
       {/* Header */}
-      <div className="bg-gradient-to-br from-[#3a2efe] to-[#2a1fd8] py-20 text-white">
+      <div className="bg-gradient-to-br from-[#3a2efe] via-[#4d3dfe] to-[#5d51fe] py-20 text-white">
         <div className="container mx-auto px-6 lg:px-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="text-center"
           >
-            <h1 className="text-4xl md:text-5xl font-light mb-4">
-              Past <span className="font-semibold text-[#F5B800]">Pieces</span>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">
+              Past <span className="text-[#F5B800]">Pieces</span>
             </h1>
-            <p className="text-blue-200 max-w-2xl mx-auto">
+            <p className="text-white/90 max-w-2xl mx-auto">
               A gallery of furniture that found their forever homes. See our style and quality.
             </p>
           </motion.div>

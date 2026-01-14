@@ -47,17 +47,17 @@ export default function Contact() {
   return (
     <div className="min-h-screen bg-slate-50">
       {/* Header */}
-      <div className="bg-gradient-to-br from-[#3a2efe] to-[#2a1fd8] py-20 text-white">
+      <div className="bg-gradient-to-br from-[#3a2efe] via-[#4d3dfe] to-[#5d51fe] py-20 text-white">
         <div className="container mx-auto px-6 lg:px-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="text-center"
           >
-            <h1 className="text-4xl md:text-5xl font-light mb-4">
-              Get in <span className="font-semibold text-[#F5B800]">Touch</span>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">
+              Get in <span className="text-[#F5B800]">Touch</span>
             </h1>
-            <p className="text-blue-200 max-w-2xl mx-auto">
+            <p className="text-white/90 max-w-2xl mx-auto">
               Questions about a piece? Looking for something specific? We're here to help.
             </p>
           </motion.div>
@@ -203,36 +203,36 @@ export default function Contact() {
               animate={{ opacity: 1, x: 0 }}
               className="lg:col-span-2 space-y-6"
             >
-              <div className="bg-[#3a2efe] text-white rounded-3xl p-8">
-                <h3 className="text-xl font-semibold mb-6">Contact Information</h3>
+              <div className="bg-gradient-to-br from-[#3a2efe] to-[#5d51fe] text-white rounded-3xl p-8 shadow-xl">
+                <h3 className="text-xl font-bold mb-6">Contact Information</h3>
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <div className="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center flex-shrink-0">
                       <MapPin className="w-5 h-5 text-[#F5B800]" />
                     </div>
                     <div>
-                      <p className="font-medium mb-1">Location</p>
-                      <p className="text-blue-200">Indianapolis, IN</p>
+                      <p className="font-bold mb-1">Location</p>
+                      <p className="text-white/90">Indianapolis, IN</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <div className="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center flex-shrink-0">
                       <Phone className="w-5 h-5 text-[#F5B800]" />
                     </div>
                     <div>
-                      <p className="font-medium mb-1">Phone</p>
-                      <a href="tel:3175551234" className="text-blue-200 hover:text-white transition-colors">
+                      <p className="font-bold mb-1">Phone</p>
+                      <a href="tel:3175551234" className="text-white/90 hover:text-white transition-colors">
                         (317) 555-1234
                       </a>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <div className="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center flex-shrink-0">
                       <Mail className="w-5 h-5 text-[#F5B800]" />
                     </div>
                     <div>
-                      <p className="font-medium mb-1">Email</p>
-                      <a href="mailto:hello@justwithpizzazz.com" className="text-blue-200 hover:text-white transition-colors">
+                      <p className="font-bold mb-1">Email</p>
+                      <a href="mailto:hello@justwithpizzazz.com" className="text-white/90 hover:text-white transition-colors">
                         hello@justwithpizzazz.com
                       </a>
                     </div>
@@ -240,9 +240,9 @@ export default function Contact() {
                 </div>
               </div>
 
-              <div className="bg-gradient-to-br from-[#F5B800] to-amber-500 rounded-3xl p-8 text-slate-900">
-                <h3 className="text-xl font-semibold mb-3">The Personal Touch</h3>
-                <p className="text-slate-800/80">
+              <div className="bg-gradient-to-br from-[#F5B800] to-[#ffcf40] rounded-3xl p-8 text-slate-900 shadow-xl">
+                <h3 className="text-xl font-bold mb-3">The Personal Touch</h3>
+                <p className="text-slate-900/90">
                   Every piece of furniture has a story, and we want to make sure yours finds the perfect home. 
                   That's why we take the time to chat with each customer personally.
                 </p>

@@ -126,7 +126,7 @@ export default function Layout({ children, currentPageName }) {
       </main>
 
       {/* Footer */}
-      <footer className="bg-[#3a2efe] text-white">
+      <footer className="bg-gradient-to-br from-[#3a2efe] via-[#4d3dfe] to-[#5d51fe] text-white">
         <div className="container mx-auto px-6 lg:px-12 py-12">
           <div className="grid md:grid-cols-3 gap-12">
             <div>
@@ -135,18 +135,18 @@ export default function Layout({ children, currentPageName }) {
                 alt="Just with Pizzazz"
                 className="h-16 object-contain mb-4 brightness-0 invert"
               />
-              <p className="text-blue-200 text-sm">
+              <p className="text-white/80 text-sm">
                 Curated furniture with a personal touch. Serving Indianapolis and beyond.
               </p>
             </div>
             <div>
-              <h4 className="font-semibold mb-4">Quick Links</h4>
+              <h4 className="font-bold mb-4">Quick Links</h4>
               <div className="space-y-2">
                 {navLinks.map(link => (
                   <Link 
                     key={link.page}
                     to={createPageUrl(link.page)}
-                    className="block text-blue-200 hover:text-[#F5B800] transition-colors text-sm"
+                    className="block text-white/80 hover:text-[#F5B800] transition-colors text-sm"
                   >
                     {link.name}
                   </Link>
@@ -154,15 +154,15 @@ export default function Layout({ children, currentPageName }) {
               </div>
             </div>
             <div>
-              <h4 className="font-semibold mb-4">Contact</h4>
-              <div className="space-y-2 text-blue-200 text-sm">
+              <h4 className="font-bold mb-4">Contact</h4>
+              <div className="space-y-2 text-white/80 text-sm">
                 <p>Indianapolis, IN</p>
                 <p>(317) 555-1234</p>
                 <p>hello@justwithpizzazz.com</p>
               </div>
             </div>
           </div>
-          <div className="border-t border-blue-800 mt-12 pt-8 text-center text-blue-300 text-sm">
+          <div className="border-t border-white/20 mt-12 pt-8 text-center text-white/70 text-sm">
             <p>© {new Date().getFullYear()} Just with Pizzazz. All rights reserved.</p>
           </div>
         </div>

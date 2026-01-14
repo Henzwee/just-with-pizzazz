@@ -20,8 +20,8 @@ export default function FeaturedPieces({ pieces }) {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-light text-slate-800 mb-4">
-            Available <span className="font-semibold text-[#F5B800]">Pieces</span>
+          <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
+            Available <span className="bg-gradient-to-r from-[#F5B800] to-[#ffcf40] bg-clip-text text-transparent">Pieces</span>
           </h2>
           <p className="text-slate-600 max-w-2xl mx-auto">
             Unique furniture ready for their new home. Interested? Just reach out—we'd love to chat.
